@@ -1,0 +1,465 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+  margin: 0;
+}
+
+body {
+  /* width: 80%; */
+  margin: 0 0;
+}
+
+.home,
+.recipeMain,
+.AboutUs {
+  margin-top: -100px;
+}
+
+/* Styles for the Navbar */
+.navbar {
+  padding: 15px 0;
+  position: fixed;
+  background-color: azure;
+  width: 100%;
+  height: 100px;
+  z-index: 4;
+  /* padding: 0 40px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  border-bottom: 1px solid whitesmoke;
+  /* margin: 0 40px; */
+}
+
+.brandLogo {
+  padding-left: 40px;
+  height: 20px;
+}
+
+.navLinks,
+.socialsLinks {
+  display: flex;
+  align-items: center;
+  padding-right: 40px;
+  gap: 10px;
+}
+
+.navLink {
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0 20px;
+}
+
+.social {
+  height: 17px;
+  padding: 10px;
+}
+
+
+/* Styles for hero sectiion */
+.heroSection {
+
+  padding: 180px 40px 20px 40px;
+  /* margin-top: 100px; */
+}
+
+.heroTop {
+  /* padding: 15px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 60px; */
+  width: 100%;
+}
+
+.titleWrap {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.title {
+  color: #000000;
+  font-size: 54px;
+  font-weight: 600;
+  letter-spacing: -2px;
+}
+
+.profileWrap {
+  display: flex;
+  align-items: center;
+  gap: 30px
+}
+
+.printShr {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  gap: 35px;
+}
+
+.heroMid {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.heroSection p {
+  padding: 15px 0;
+
+}
+
+.nutritionSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 20px 20px;
+  background-color: #E7FAFE;
+  width: 450px;
+}
+
+.nutTitle {
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
+
+.bottomNut {
+  margin-top: 40px;
+}
+
+.rws {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #0000001A;
+}
+
+.rws p,
+.rws h5 {
+  margin-top: -10px;
+}
+
+
+/* Styles for Featured Recipe Component */
+
+.featRecipeMain {
+  margin: 100px 0;
+  padding-top: 150px;
+  display: flex;
+
+  align-items: center;
+  border-radius: 40px 0px 0px 40px;
+}
+
+.badge {
+  z-index: 2;
+  position: relative;
+  bottom: 150px;
+  right: 40px;
+  height: 140px;
+}
+
+.MaskGroup {
+  position: relative;
+  bottom: 0px;
+  left: -95px;
+  width: inherit;
+  height: 480px;
+  width: auto;
+}
+
+.leftdetail {
+  position: relative;
+  left: 45px;
+  bottom: 0px;
+  width: 800px;
+  height: 786px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  /* justify-content: center; */
+  height: inherit;
+  padding-left: 40px;
+  background-color: #E7FAFE;
+  border-radius: 30px 0 0 30px;
+
+}
+
+.hotrecipe {
+  align-self: flex-start;
+  margin: 0;
+  padding-top: 10px;
+  height: 120px
+}
+
+.spicy {
+  /* margin-top: 5px; */
+  font-size: 57px;
+  font-weight: 600;
+  line-height: 56px;
+  padding: 0 20px;
+  word-spacing: 10px;
+}
+
+.leftdetail p {
+  margin-top: 5px;
+  font-size: 18px;
+  word-spacing: 6px;
+  font-weight: 350;
+  padding: 20px 20px;
+  line-height: 18px;
+}
+
+.profileview {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 400px;
+  padding: 30px 5px;
+}
+
+.view {
+  height: 45px;
+}
+
+.choseIcons {
+  padding-top: 6px;
+  display: flex;
+  gap: 100px;
+}
+
+.iconH {
+  height: 45px;
+}
+
+/* Styles for Categories Component */
+.categoriesContainer {
+  margin: auto 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  /* width: 100px; */
+}
+
+.catTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 960px;
+}
+
+.titlebox {
+  font-size: 48px;
+  font-weight: 600;
+  color: #000000;
+  letter-spacing: -2px;
+}
+
+.btn1 {
+  width: 120px;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  background-color: #E7FAFE;
+  color: #000000;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.contentsWrap {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  gap: 110px;
+}
+
+.categoryItem {
+  width: 130px;
+}
+
+/* Styles for Recipe Gallary */
+.galTitle {
+  margin: 20px 50px;
+  padding-top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleCont {
+  color: #000000;
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: -2px;
+}
+
+.galSubtext {
+  font-size: 14px;
+  width: 600px;
+  text-align: center;
+  padding: 20px 4px;
+}
+
+.recipesDisplay {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  justify-content: center;
+  gap: 78px;
+}
+
+.galaryItem {
+
+  width: 390px;
+  height: auto;
+}
+
+.galaryItem:hover,
+.social:hover,
+.view:hover,
+.instaBtn:hover,
+.btn2H:hover {
+  cursor: pointer;
+}
+
+/* Styles for Learn More Component(Home page) */
+.learnMore {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 100px;
+  margin: 50px 70px;
+}
+
+.leftcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.titletxt {
+  font-size: 62px;
+  font-weight: 600;
+  color: #000000;
+  width: 740px;
+  letter-spacing: -2px;
+  line-height: 56px;
+}
+
+.leftcontainer p {
+  font-size: 16px;
+  width: 480px;
+  color: #00000099;
+  padding: 20px 0;
+  ;
+}
+
+.btn2H {
+  margin-top: 20px;
+  width: 130px;
+}
+
+.rightImg {
+  height: 430px;
+}
+
+/* Styles for Instagram Posts' Components */
+.instaContainer {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+}
+
+.instaTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.instAddress {
+  font-size: 36px;
+  font-weight: 700;
+  color: #000000;
+  word-spacing: -2px;
+  letter-spacing: -2px;
+  padding: 3px;
+}
+
+.instaContainer p {
+  font-size: 13px;
+  font-weight: 400;
+  color: #00000099;
+  padding: 10px;
+  width: 600px;
+  text-align: center;
+}
+
+.instaPosts {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  gap: 80px
+}
+
+.instapost {
+  height: 420px;
+}
+
+.instaBtn {
+  padding: 50px 5px;
+  height: 50px;
+}
+
+/* Styles for More Recipes Component */
+.moreRecipes {
+  margin: 50px 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px
+}
+
+.headingWrap {
+  display: flex;
+  justify-content: space-between;
+  gap: 530px;
+}
+
+.callToTry {
+  font-size: 34px;
+  font-weight: 600;
+  color: #000000;
+  word-spacing: -2px;
+  letter-spacing: -2px;
+  width: 400px;
+}
+
+.headingWrap p {
+  font-size: 13px;
+  font-weight: 400;
+  width: 400px;
+}
+
+.moreRecipeGallary {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 40px;
+}
+
+.recipeItem {
+  height: 330px;
+
+}
