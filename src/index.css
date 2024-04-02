@@ -12,9 +12,7 @@ body {
   margin: 0 0;
 }
 
-.home,
-/* .recipeMain, */
-.AboutUs {
+.home {
   margin-top: -100px;
 }
 
