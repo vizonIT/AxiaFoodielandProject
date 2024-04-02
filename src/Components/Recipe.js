@@ -1,13 +1,13 @@
 import Navbar from "./Navbar";
 import HeroSection from "./HeroSection";
-import RecipeGallary from "./RecipeGallary";
+import Ingredients from "./Ingredients";
 
 const Recipe = () => {
   return (
     <div className="recipeMain">
       <Navbar />
       <HeroSection />
-      <RecipeGallary />
+      <Ingredients />
     </div>
 
   );

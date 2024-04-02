@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <img className="brandLogo" src={Foodieland} alt="brand logo" />
-      <div className='navLinks'>
+      <div className='navLinks1'>
         <Link to="/" className='navLink'>Home</Link>
         <Link to="/recipe" className='navLink'>Recipes</Link>
         <Link to="/blog" className='navLink'>Blog</Link>

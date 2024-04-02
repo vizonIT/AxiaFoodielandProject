@@ -9,12 +9,11 @@
 }
 
 body {
-  /* width: 80%; */
   margin: 0 0;
 }
 
 .home,
-.recipeMain,
+/* .recipeMain, */
 .AboutUs {
   margin-top: -100px;
 }
@@ -41,7 +40,7 @@ body {
   height: 20px;
 }
 
-.navLinks,
+.navLinks1,
 .socialsLinks {
   display: flex;
   align-items: center;
@@ -62,93 +61,13 @@ body {
 }
 
 
-/* Styles for hero sectiion */
-.heroSection {
 
-  padding: 180px 40px 20px 40px;
-  /* margin-top: 100px; */
-}
 
-.heroTop {
-  /* padding: 15px; */
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  /* gap: 60px; */
-  width: 100%;
-}
+/* STYLING FOR THE HOME PAGE OF THE APP */
 
-.titleWrap {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-
-.title {
-  color: #000000;
-  font-size: 54px;
-  font-weight: 600;
-  letter-spacing: -2px;
-}
-
-.profileWrap {
-  display: flex;
-  align-items: center;
-  gap: 30px
-}
-
-.printShr {
-  display: flex;
-  align-items: center;
-  justify-content: right;
-  gap: 35px;
-}
-
-.heroMid {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 50px;
-}
-
-.heroSection p {
-  padding: 15px 0;
-
-}
-
-.nutritionSection {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 20px;
-  border-radius: 20px 20px;
-  background-color: #E7FAFE;
-  width: 450px;
-}
-
-.nutTitle {
-  margin-top: 10px;
-  padding-bottom: 20px;
-}
-
-.bottomNut {
-  margin-top: 40px;
-}
-
-.rws {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-bottom: 1px solid #0000001A;
-}
-
-.rws p,
-.rws h5 {
-  margin-top: -10px;
-}
-
+/*(NOTE............. SEE NAVBAR IN LINE 21 ABOVE) */
 
 /* Styles for Featured Recipe Component */
-
 .featRecipeMain {
   margin: 100px 0;
   padding-top: 150px;
@@ -326,7 +245,8 @@ body {
 .social:hover,
 .view:hover,
 .instaBtn:hover,
-.btn2H:hover {
+.btn2H:hover,
+.copyWrite div:hover {
   cursor: pointer;
 }
 
@@ -462,4 +382,340 @@ body {
 .recipeItem {
   height: 330px;
 
+}
+
+/* Styles for Mailing CTA */
+.mailingContainer {
+  height: auto;
+  margin: 20px 50px 40px 50px;
+  border-radius: 40px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #E7F9FD;
+}
+
+.CTA {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ctaTitle {
+  font-size: 30px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.CTA p {
+  padding: 20px 10 0 10px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  width: 480px;
+  color: #00000099;
+  line-height: 20px;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+.typingArea {
+  margin-bottom: -150px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  width: 390px;
+  height: 70px;
+}
+
+.typingArea input {
+  padding-left: 10px;
+  border: none;
+  background-color: inherit;
+  height: inherit;
+  outline: none;
+  width: 50%;
+  border-radius: 20px;
+}
+
+.typingArea button {
+  margin: 8px;
+  outline: none;
+  background-color: #000000;
+  padding: 5px;
+  width: 250px;
+  height: 43px;
+  width: 35%;
+  color: #FFFFFF;
+  border-radius: 15px;
+}
+
+.saladWrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* gap: 0px; */
+}
+
+.SaladLeft {
+  position: relative;
+  top: 0px;
+  right: 0px;
+  height: 250px;
+  border-bottom-left-radius: 40px;
+  height: 240px;
+}
+
+.SaladRight {
+  position: relative;
+  top: 25px;
+  left: 0px;
+  height: 230px;
+  border-bottom-right-radius: 40px;
+  height: 190px;
+}
+
+/* Styles for Footer Component */
+.footerContainer {
+  margin: 50px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.topSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.topLeftFooter {
+  display: flex;
+  flex-direction: column;
+  padding: auto;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.topLeftFooter img {
+  margin-left: -40px;
+}
+
+.topLeftFooter p {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.navLinks2 {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+hr {
+  border: 1px solid #0000001A;
+}
+
+.bottomSection {
+  display: flex;
+  justify-content: flex-end;
+  /* align-items: ; */
+  padding: 25px 0;
+  gap: 400px;
+}
+
+.copyWrite {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.copyYear,
+.copyWrite div {
+  font-size: 14px;
+  letter-spacing: 2px;
+
+}
+
+/* STYLING FOR RECIPE PAGE OF THE APP */
+.recipeMain {
+  margin-top: -20px;
+}
+
+/*(NOTE....................... SEE NAVBAR IN LINE 21 ABOVE) */
+
+/* Styles for hero sectiion */
+.heroSection {
+  padding: 180px 40px 20px 40px;
+}
+
+.heroTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.titleWrap {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.title {
+  color: #000000;
+  font-size: 54px;
+  font-weight: 600;
+  letter-spacing: -2px;
+}
+
+.profileWrap {
+  display: flex;
+  align-items: center;
+  gap: 30px
+}
+
+.printShr {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  gap: 35px;
+}
+
+.heroMid {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.heroSection p {
+  padding: 15px 0;
+
+}
+
+.nutritionSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 20px 20px;
+  background-color: #E7FAFE;
+  width: 450px;
+}
+
+.nutTitle {
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
+
+.bottomNut {
+  margin-top: 40px;
+}
+
+.rws {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #0000001A;
+}
+
+.rws p,
+.rws h5 {
+  margin-top: -10px;
+}
+
+
+/* Styles for Ingredient component */
+.ingredientsContainer {
+  margin: 50px 50px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.leftIngredientRecipe {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.leftIngredientRecipe h3 {
+  color: #000000;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.forMainDish {
+  padding: 20px 0;
+}
+
+.selectionPane,
+.options {
+  width: inherit;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  border-bottom: 1px solid #0000001A;
+  padding: 20px 0;
+}
+
+.selectContent {
+  color: #00000099;
+  font-size: 12px;
+
+}
+
+.RightIngredientsRecipe {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.RightIngredientsRecipe img {
+  padding-bottom: 20px;
+  height: 350px;
+}
+
+
+@media screen and (max-width: 650px) {
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .brandLogo {
+    padding-left: 0;
+
+  }
+
+  .navLinks1,
+  .socialsLinks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navLink {
+    visibility: hidden;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .social {
+    height: 14px;
+  }
+
+  /* .featRecipeMain {
+    display: flex;
+    flex-direction: column;
+  } */
 }
